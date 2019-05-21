@@ -23,24 +23,36 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="85"/>
                                 <state key="normal" title="🥰"/>
+                                <connections>
+                                    <action selector="loveEmoji:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XD8-if-rhG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hLx-Ey-bRR">
                                 <rect key="frame" x="267" y="263" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="85"/>
                                 <state key="normal" title="🤓"/>
+                                <connections>
+                                    <action selector="nerdEmoji:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qsn-mO-DcE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pnt-sW-F3V">
                                 <rect key="frame" x="48" y="534" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="85"/>
                                 <state key="normal" title="🤠"/>
+                                <connections>
+                                    <action selector="emojYee:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YAq-ZN-Ki0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckf-9d-rgT">
                                 <rect key="frame" x="267" y="534" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="85"/>
                                 <state key="normal" title="😰"/>
+                                <connections>
+                                    <action selector="ohNoji:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pAc-u9-vOv"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="let's get" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KdQ-vd-CdA">
                                 <rect key="frame" x="153" y="406" width="109" height="34"/>
